@@ -1,13 +1,13 @@
 #contenedor {
     background-color: #ebebeb;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(backgroundDay.jpg);
+    background-image: url(img/backgroundDay.jpg);
     /* background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5); */
     background-size: cover;
 }
 
 .noche {
-    background-image: url(backgroundNight.jpg) !important;
+    background-image: url(img/backgroundNight.jpg) !important;
     background-size: cover;
     background-origin: inherit;
 }
