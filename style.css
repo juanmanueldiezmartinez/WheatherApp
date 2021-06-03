@@ -1,0 +1,157 @@
+#contenedor {
+    background-color: #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(backgroundDay.jpg);
+    /* background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5); */
+    background-size: cover;
+}
+
+.noche {
+    background-image: url(backgroundNight.jpg) !important;
+    background-size: cover;
+    background-origin: inherit;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+    color: #E6ECF9;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+input, select {
+    background-color: darkblue;
+    opacity: 0.4;
+    color: lightyellow;
+    border-color: transparent;
+}
+
+#search {
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+#units {
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+#button .noche {
+    box-sizing: border-box;
+    background-color: transparent;
+    border-color: transparent;
+    margin: 5px 0px;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+}
+
+#button {
+    box-sizing: border-box;
+    background-color: darkblue;
+    opacity: 0.3;
+    border-color: transparent;
+    margin: 5px 0px;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+}
+
+#output {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: whitesmoke;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.city {
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.city div {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.contenedores {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 70%;
+    padding: 20px 0px;
+    margin: auto;
+}
+
+.contenedores div {
+    width: 50%;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+@media (max-width: 400px) {
+    #container {
+        width: 80%;
+    }
+
+    .contenedores {
+        flex-direction: column;
+        margin: auto;
+        padding: 5px 0px;
+    }
+
+    .contenedores div {
+        width: 100%;
+        margin: auto;
+    }
+
+    #city img {
+        max-width: 60px;
+        max-height: 60px;
+        margin: auto;
+        border-radius: 5px;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .city {
+        margin: 10px 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contenedores {
+        width: 100%;
+        margin: auto;
+
+    }
+}
+@media (max-width: 750px) {
+    #container {
+        width: 80%;
+        margin: auto;
+
+    }
+}
